@@ -1,0 +1,20 @@
+- year: 2018
+  presentations:
+    - title: Gestión del riesgo
+      author: Ernesto Ortiz
+      desc:
+      link:
+    - title: Alimentación e Hidratación en la Montaña
+      author: Jorge Torres
+      desc:
+      link: presentations/AlimentateHidratate.pdf
+- year: 2015
+  presentations:
+    - title: Alimentación e Hidratación en la Montaña
+      author: Jorge Torres
+      desc:
+      link: presentations/AlimentateHidratate.pdf
+    - title: Alimentación e Hidratación en la Montaña
+      author: Jorge Torres
+      desc:
+      link: presentations/AlimentateHidratate.pdf

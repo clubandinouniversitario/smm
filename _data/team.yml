@@ -1,0 +1,52 @@
+managment:
+  - name: José Miguel Jorquera
+    description: Coordinador general
+  - name: Lorena Henriquez
+    description: Coordinadora
+board:
+  - name: Daniela Quiroz
+    description: Presidenta
+  - name: Domingo Lama
+    description: Vicepresidente
+  - name: Natalia Bugedo
+    description: Directora técnica
+  - name: Francisco Vallés
+    description: Secretario
+  - name: Catalina Nuñez
+    description: Tesorera
+  - name: Ernesto Ortiz
+    description: Directorio
+  - name: Nicolás Moreno
+    description: Directorio
+  - name: Pablo Dawson
+    description: Encargado convenios
+medical:
+  - name: Sebastián Irarrazabal
+    description: Médico Cirujano, Traumatólogo, Pontificia Universidad Católica de Chile. Médico expediciones Lhotse 2006 y Everest 2012. Instructor Advanced Wilderness Life Support.
+  - name: Nicolás Thumm Bock
+    description: Médico Traumatólogo. Pontificia Universidad Católica de Chile. Certificación Advanced Wilderness Life Support. Docente cursos de primeros auxilios. Club Andino Universitario.
+  - name: Sebastián Drago Pérez
+    description: Médico Traumatólogo formado en la Pontificia Universidad Católica de Chile, trabaja en Hospital del Trabajador de Santiago. Instructor Advanced Wilderness Life Support. Miembro de la directiva de la Sociedad Chilena de Medicina de Montaña y áreas remotas.
+staff:
+  - name: Domingo Lama
+    description: Presentador
+  - name: Daniel Bostón
+    description: Community Manager
+  - name: Daniela Quiroz
+    description: Web y estadísticas
+  - name: Rodrigo Yaitul
+    description: Fotográfo
+  - name: Damián Araos
+    description: Diseño afiche
+  - name: Valentina Jorquera
+    description: Encargado Audiovisial
+  - name: Cristian Vasquez
+    description: Encargado de audio
+  - name: Oliver Bravo
+    description: Encargado de salón
+  - name: Franco Delgado Patiño
+    description: Encargado de Seguridad Salón
+  - name: Gabriel López
+    description: Encargado Coffee Break
+  - name: Romina Toro
+    description: Encargado Anfitriones

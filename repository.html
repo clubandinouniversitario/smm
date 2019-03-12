@@ -1,0 +1,102 @@
+---
+layout: default
+title: Biblioteca SMM
+section_id: biblioteca
+---
+
+<div class='full parallax' style='background-image: url(images/home/presentador.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='twelve columns'>
+      {% include section-header.html title="Biblioteca SMM" color="#fff" tagline="Revisa presentaciones de versiones anteriores" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+
+<div class='full'>
+  {% include section-header.html title="Videos de presentaciones" color="#000" %}
+  <div class='two spacing'></div>
+  <div class='row'>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/231812159" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <a href="https://vimeo.com/231812159">Hoja de coca- &iquest;Sirve para prevenir la puna?, por Isidora Varas</a>
+    </div>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/231810824" width="100%"frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <a href="https://vimeo.com/231810824">&iquest;Siempre tengo que usar factor 50 en la montaña?, por Hernán Correa</a>
+    </div>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/231809266" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/231809266">Fumar marihuana- &iquest;Afecta mi rendimiento y seguridad?, por Matias Irarrazaval</a>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/222451219" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/222451219">Expediciones al Lhotse (2006) y Everest (2012, 2014, 2016), por Sebasti&aacute;n Irarrazabal</a>
+    </div>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/222283549" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/222283549">Expediciones Aconcagua, Ojos del Salado, Mes&oacute;n Alto y Everest, por Roberto Moya</a>
+    </div>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/218559171" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/218559171">&iquest;Sirven los isot&oacute;nicos?, por Mar&iacute;a Luisa Vald&eacute;s</a>
+    </div>
+  </div>
+
+
+  <div class='row'>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/218557580" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/218557580">Uso de bastones: &iquest;Protegen las rodillas?, por Luis Irribarra</a>
+    </div>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/218552246" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/218552246">Hidrataci&oacute;n en la monta&ntilde;a: &iquest;Antes, durante o despu&eacute;s?, por Valeria Eller</a>
+    </div>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/206578188" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/206578188">Soy escalador y me duele un dedo: &iquest;Se acab&oacute; mi carrera deportiva?, por Sebastian Von Unger</a>
+    </div>
+  </div>
+
+  <div class='row'>
+    <div class='medium-4 columns'>
+      <iframe src="https://player.vimeo.com/video/205985419" width="100%" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+      <p><a href="https://vimeo.com/205985419">Zapatos de ca&ntilde;a alta: &iquest;Sirven para prevenir lesiones de tobillo?, por Sebasti&aacute;n Drago</a>
+    </div>
+    <div class='medium-4 columns'>
+    </div>
+    <div class='medium-4 columns'>
+    </div>
+  </div>
+
+
+
+</div>
+
+
+
+
+
+<div class='full'>
+  <div class='row'>
+    {% include section-header.html title="Presentaciones anteriores" color="#000" %}
+
+    {% for year in site.data.repository %}
+      <h3> {{year.year}} </h3>
+      <ul class='socials'>
+        {% for presentation in year.presentations %}
+          <li>
+            <a href="{{presentation.link}}">{{presentation.title}}</a>, por {{presentation.author}}
+          </li>
+        {% endfor %}
+      </ul>
+    {% endfor %}
+  </div>
+</div>
+
+<div class='four spacing'></div>

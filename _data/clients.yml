@@ -1,6 +1,7 @@
-- image: images/@stock/client-1.png
-- image: images/@stock/client-2.png
-- image: images/@stock/client-3.png
-- image: images/@stock/client-4.png
-- image: images/@stock/client-5.png
-- image: images/@stock/client-6.png
+- image: images/logos/logoandesgear.png
+- image: images/logos/logopuc.png
+- image: images/logos/logoescalando.png
+- image: images/logos/logomedicina.png
+- image: images/logos/LogoTNF.png
+- image: images/logos/logomakalu.png
+- image: images/logos/LogoMamut.png

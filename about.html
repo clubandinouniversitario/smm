@@ -1,29 +1,13 @@
 ---
 layout: default
-title: About
-section_id: about
-skills:
-  - title: Web Design
-    percentage: 84
-  - title: Web Development
-    percentage: 95
-  - title: Site Management
-    percentage: 70
-  - title: Branding
-    percentage: 61
-testimonials:
-  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
-    author: David White, Designer at Huglab
-  - quote: Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.
-    author: David White, Designer at Huglab
-  - quote: Reprehenderit eos et non et ut eum reprehenderit quis sequi quia vel repellendus id. Velit quit blanditiis dolor quam error eos dolores sequi eaque rerum est.
-    author: David White, Designer at Huglab
+title: Nosotros
+section_id: nosotros
 ---
 
-<div class='full parallax' style='background-image: url(images/@stock/about-us.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/home/Equipo.jpg); color: #fff;'>
   <div class='row'>
     <div class='twelve columns'>
-      {% include section-header.html title="About us" color="#fff" tagline="Know something about our team" class="big" %}
+      {% include section-header.html title="Nosotros" color="#fff" tagline="Conoce la historia del SMM y el equipo que lo hace posible" class="big" %}º
     </div>
   </div>
   <div class='four spacing'></div>
@@ -32,96 +16,63 @@ testimonials:
 <div class='full'>
   <div class='row'>
     <div class='medium-6 columns'>
-      <h3>Our history</h3>
-      <p>Consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
-      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat consectetuer sit amet magna adipiscing.</p>
+      <h3>Nuestra historia</h3>
+      <p> El seminario de medicina de montaña se inició el 2001 con el único objetivo de difundir los conocimientos de seguridad y medicina de montaña entre todos los montañistas. Lo iniciaron Nicolás Thumm, Matías Irarrazabal y Sebastián Irarrázaval con el constante apoyo de Ernesto Olivares. </p>
+      <p> A medida que han pasado los años este seminario ha crecido muchísimo gracias al apoyo del Club Andino Universitario; los últimos años, quienes han sido fundamentales en hacer crecer el seminario gracias a la difusión, organización y auspiciadores que han conseguido, cuyo apoyo ha sido clave para seguir con su filosofía de <strong> entregar gratuitamente conocimientos de Medicina de Montaña a la comunidad de la forma más inclusiva y transversa posible.</strong> </p> <p> La libertad que nos entrega la montaña tiene que estar acompañada de conocimientos en seguridad y medicina para evitar accidentes y poder tratarlos de forma correcta cuando ocurren. En ese sentido, todos los conocimientos que difunde el seminario año a año cobran real sentido con tan sólo una vida que podamos salvar o un compañero que podamos rescatar en la difícil situación que es un accidente en la montaña, pero del cual nadie está exento. </p>
+      <p> El gran motor del seminario siempre han sido sus asistentes, quienes son fundamentales en que siga creciendo. Es por esto que el equipo organizador agradece la participación de cada uno de los que asisten y son los difusores este seminario, instancia única para juntarnos a aprender de cómo prevenir accidentes y disfrutar de este deporte que tanto nos gusta que es el montañismo, el cual es finalmente una forma de vivir.</p>
+      <h3>Club Andino Universitario (CAU)</h3>
+      <div class=row>
+        <div class='medium-4 columns'>
+          <img src="/images/logo-cau.png" alt="logo cau"/>
+          <div class='spacing'></div>
+          <a href="http://www.cau.cl"> Visita la página del CAU </a>
+        </div>
+        <div class='medium-8 columns'>
+          <p>El CAU, club organizador, fue constituido en julio del año 2004 por un grupo de estudiantes universitarios y profesionales, pertenecientes a la selección de montañismo de la Pontificia Universidad Católica de Chile, ante la necesidad de proyectarse hacia el futuro con las antiguas, actuales y nuevas generaciones de montañistas.</p>
+        </div>
+      </div>
+
     </div>
     <div class='medium-6 columns'>
-      <h3>Our skills</h3>
-      <div class='mod modBarGraph'>
-        <ul class='bars'>
-          {% for skill in page.skills %}
-            <li>
-              <h4 style=''>
-                {{skill.title}}
-                <strong>{{skill.percentage}}%</strong>
-              </h4>
-              <p class='highlighted' data-percent='{{skill.percentage}}'></p>
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
+      <h3>El equipo</h3>
+      <h4>Coodinación Seminario Medicina de Montaña SMM</h4>
+      <ul class='socials'>
+        {% for member in site.data.team.managment %}
+          <li>
+            {{member.name}}: {{member.description}}
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h4>Staff</h4>
+      <ul class='socials'>
+        {% for member in site.data.team.staff %}
+          <li>
+            {{member.name}}: {{member.description}}
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h4>Directiva CAU</h4>
+      <ul class='socials'>
+        {% for member in site.data.team.board %}
+          <li>
+            {{member.name}}: {{member.description}}
+          </li>
+        {% endfor %}
+      </ul>
+
+      <h4>Equipo médico</h4>
+      <ul class='socials'>
+        {% for member in site.data.team.medical %}
+          <li>
+            {{member.name}}: {{member.description}}
+          </li>
+        {% endfor %}
+      </ul>
     </div>
   </div>
 </div>
 
-
-<div class='full'>
-  <div class='row'>
-    {% for member in site.data.members %}
-      <div class='small-6 medium-3 large-3 columns'>
-        <div class='mod modTeamMember'>
-          <div class='member'>
-            <img class="avatar" alt="" src="{{ member.avatar }}" />
-            <div class='overlay'>
-              <div class='intro'>
-                <h3>{{member.name}}</h3>
-                <p>{{member.position}}</p>
-                <ul class='socials'>
-                  {% for social in member.socials %}
-                    <li>
-                      <a href='{{social.link}}'>
-                        <i class='fa fa-{{social.icon}}'></i>
-                      </a>
-                    </li>
-                  {% endfor %}
-                </ul>
-              </div>
-            </div>
-          </div>
-          <p class='centered-text'>{{member.desc}}</p>
-          <div class='two spacing'></div>
-        </div>
-      </div>
-    {% endfor %}
-  </div>
-</div>
-
-
-<div class='full parallax' style='background: #f5f5f5'>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <p class='centered-text'>
-        <i class='fa fa-quote-left' style='color: #F9CE06; font-size: 36px;'></i>
-      </p>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      {% include section-header.html title="What our clients say" %}
-      <div class='spacing'></div>
-    </div>
-  </div>
-  <div class='row'>
-    <div class='large-12 columns'>
-      <div class='mod modTestimonials'>
-        <div class='row'>
-          <div class='small-12 columns'>
-            <div class='items centered-text'>
-              {% for testimonial in page.testimonials %}
-                <div class='item'>
-                  <p class='quote'>"{{testimonial.quote}}"</p>
-                  <p class='author'>- {{testimonial.author}}</p>
-                  <div class='two spacing'></div>
-                </div>
-              {% endfor %}
-            </div>
-          </div>
-          <div class='spacing'></div>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
 
 {% include our-customers.html %}

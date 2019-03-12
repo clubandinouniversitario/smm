@@ -1,95 +1,66 @@
 ---
 layout: default
-title: Portfolio
+title: Galería
 section_id: portfolio
 works:
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design print
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-1.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development print
-    desc: Design &amp; Development
-  - image: images/@stock/work-2.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: brand
-    desc: Design &amp; Development
-  - image: images/@stock/work-3.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: web-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-4.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print
-    desc: Design &amp; Development
-  - image: images/@stock/work-5.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
-  - image: images/@stock/work-6.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: development
-    desc: Design &amp; Development
-  - image: images/@stock/work-7.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: print
-    desc: Design &amp; Development
-  - image: images/@stock/work-8.jpg
-    title: Beautiful Girl
-    link_to: portfolio-item.html
-    klass: graphic-design
-    desc: Design &amp; Development
+  - image: images/gallery/01.jpg
+  - image: images/gallery/02.jpg
+  - image: images/gallery/03.jpg
+  - image: images/gallery/04.jpg
+  - image: images/gallery/05.jpg
+  - image: images/gallery/06.jpg
+  - image: images/gallery/07.jpg
+  - image: images/gallery/08.jpg
+  - image: images/gallery/09.jpg
+  - image: images/gallery/10.jpg
+  - image: images/gallery/11.jpg
+  - image: images/gallery/12.jpg
+  - image: images/gallery/13.jpg
+  - image: images/gallery/14.jpg
+  - image: images/gallery/15.jpg
+  - image: images/gallery/16.jpg
+  - image: images/gallery/17.jpg
+  - image: images/gallery/18.jpg
+  - image: images/gallery/19.jpg
+  - image: images/gallery/20.jpg
+  - image: images/gallery/21.jpg
+  - image: images/gallery/22.jpg
+  - image: images/gallery/23.jpg
+  - image: images/gallery/24.jpg
+  - image: images/gallery/25.jpg
+  - image: images/gallery/26.jpg
+  - image: images/gallery/27.jpg
+  - image: images/gallery/28.jpg
+  - image: images/gallery/29.jpg
+  - image: images/gallery/30.jpg
+  - image: images/gallery/31.jpg
+  - image: images/gallery/32.jpg
+  - image: images/gallery/33.jpg
+  - image: images/gallery/34.jpg
+  - image: images/gallery/35.jpg
+  - image: images/gallery/36.jpg
+  - image: images/gallery/37.jpg
+  - image: images/gallery/38.jpg
+  - image: images/gallery/39.jpg
+  - image: images/gallery/40.jpg
+  - image: images/gallery/41.jpg
+  - image: images/gallery/42.jpg
+  - image: images/gallery/43.jpg
+  - image: images/gallery/44.jpg
+  - image: images/gallery/45.jpg
+  - image: images/gallery/46.jpg
+  - image: images/gallery/47.jpg
+  - image: images/gallery/48.jpg
+  - image: images/gallery/49.jpg
+
+
 ---
 
 
-<div class='full parallax' style='background-image: url(images/@stock/portfolio-header-bg.jpg); color: #fff;'>
+<div class='full parallax' style='background-image: url(images/home/Publico.jpg); color: #fff;'>
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Our portfolio" tagline="Have a look at our works" color="#fff" class="big" %}
+      {% include section-header.html title="Galería" tagline="Revisa en imágenes lo que ha sido el SMM" color="#fff" class="big" %}
     </div>
   </div>
   <div class='four spacing'></div>
@@ -99,46 +70,39 @@ works:
 <div class='full'>
   <div class='row'>
     <div class='mod modGallery'>
-      <div class='gallery-nav'>
-        <ul>
-          <li class='current'>
-            <a data-cat='all' href='#'>All</a>
-          </li>
-          <li>
-            <a data-cat='graphic-design' href='#'>Graphic Design</a>
-          </li>
-          <li>
-            <a data-cat='web-design' href='#'>Web Design</a>
-          </li>
-          <li>
-            <a data-cat='brand' href='#'>Brand</a>
-          </li>
-          <li>
-            <a data-cat='development' href='#'>Development</a>
-          </li>
-          <li>
-            <a data-cat='print' href='#'>Print</a>
-          </li>
-        </ul>
+
+      {% assign counter = 1 %}
+      <div class="row">
+        {% for work in page.works %}
+          {% assign cnt = counter|modulo:3 %}
+          {% if cnt == 1 %}
+            <div class="row centered-text">
+              <div class='small-6 medium-4 large-4 columns'>
+                <a href="{{work.image}}">
+                  <img class="gallery-img" src="{{ work.image }}" />
+                </a>
+              </div>
+          {% elsif cnt == 2 %}
+              <div class='small-6 medium-4 large-4 columns'>
+                <a href="{{work.image}}">
+                  <img class="gallery-img" src="{{ work.image }}" />
+                </a>
+              </div>
+          {% else %}
+            <div class='small-6 medium-4 large-4 columns'>
+              <a href="{{work.image}}">
+                <img class="gallery-img" src="{{ work.image }}" />
+              </a>
+            </div>
+            </div>
+          {% endif %}
+
+
+          {% assign counter = counter | plus:1 %}
+        {% endfor %}</div>
       </div>
 
-      <ul class='gallery large-block-grid-4 medium-block-grid-3 small-block-grid-2'>
 
-        {% for work in page.works %}
-          <li class="{{ work.klass }}">
-            <a href='{{ work.link_to }}'>
-              <img alt="" src="{{ work.image }}" />
-              <div class='overlay'>
-                <div class='thumb-info'>
-                  <h3>{{ work.title }}</h3>
-                  <p>{{ work.desc }}</p>
-                </div>
-              </div>
-            </a>
-          </li>
-        {% endfor %}
-
-      </ul>
 
     </div>
   </div>
