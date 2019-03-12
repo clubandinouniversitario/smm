@@ -1,10 +1,7 @@
 # Site settings
-title: SMM
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Seminario de Medicina de Montaña
+email: smm@cau.cl
+description: El Seminario de Medicina de Montaña, organizado por el Club Andino Universitario, tiene como objetivo entregar a la comunidad gratuitamentr conocimientos de Medicina y Seguridad en la práctica de deportes en la montaña, de la forma más inclusiva y transversal posible y de manera gratuita.
 baseurl: "/smm" # the subpath of your site, e.g. /blog/
 url: https://clubandinouniversitario.github.io/smm/ # the base hostname & protocol for your site
 twitter_username: jekyllrb
