@@ -16,24 +16,14 @@ section_id: contact
   <div class='full'>
     <div class='row'>
       <div class='medium-8 columns'>
-        <div class='form'>
-          <div class='row'>
-            <form id='contact_form' method='POST'>
-              <div class='large-12 columns'>
-                <p id='thanks' style='display: none;'>
-                ¡Gracias por escribirnos, pronto nos pondremos en contacto contigo!
-                </p>
-              </div>
-              <div class='medium-12 columns'>
-                <input class='required' name='name' placeholder='Nombre' type='text'>
-                <input class='required email' name='email' placeholder='Email' type='text'>
-                <input class='required' name='subject' placeholder='Asunto' type='text'>
-                <textarea class='required' name='message' placeholder='Mensaje'></textarea>
-                <input class='button white' type='submit'>
-              </div>
-            </form>
-          </div>
-        </div>
+        <form action="https://formspree.io/smm@cau.cl" method="POST">
+          <input class='required' name='name' placeholder='Nombre' type='text'>
+          <input class='required email' name='email' placeholder='Email' type='text'>
+          <input class='required' name='subject' placeholder='Asunto' type='text'>
+          <textarea class='required' name='message' placeholder='Mensaje'></textarea>
+          <input class='button white' type='submit'>
+        </form>
+
         <div class='two spacing'></div>
       </div>
       <div class='medium-4 columns'>
