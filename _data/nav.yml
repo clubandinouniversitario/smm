@@ -7,6 +7,11 @@
 - name: Galería
   path: portfolio.html
   section_id: portfolio
+  children:
+    - name: Galería SMM 2018
+      path: portfolio2018.html
+    - name: Galería SMM
+      path: portfolio.html
 - name: Biblioteca SMM
   path: repository.html
   section_id: repository

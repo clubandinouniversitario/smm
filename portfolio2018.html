@@ -1,0 +1,140 @@
+---
+layout: default
+title: Galería 2018
+section_id: portfolio2018
+works:
+  - image: images/gallery/2018/01.jpeg
+  - image: images/gallery/2018/02.jpeg
+  - image: images/gallery/2018/03.jpeg
+  - image: images/gallery/2018/04.jpeg
+  - image: images/gallery/2018/05.jpeg
+  - image: images/gallery/2018/06.jpeg
+  - image: images/gallery/2018/07.jpeg
+  - image: images/gallery/2018/08.jpeg
+  - image: images/gallery/2018/09.jpeg
+  - image: images/gallery/2018/10.jpeg
+  - image: images/gallery/2018/11.jpeg
+  - image: images/gallery/2018/12.jpeg
+  - image: images/gallery/2018/13.jpeg
+  - image: images/gallery/2018/14.jpeg
+  - image: images/gallery/2018/15.jpeg
+  - image: images/gallery/2018/16.jpeg
+  - image: images/gallery/2018/17.jpeg
+  - image: images/gallery/2018/18.jpeg
+  - image: images/gallery/2018/19.jpeg
+  - image: images/gallery/2018/20.jpeg
+  - image: images/gallery/2018/21.jpeg
+  - image: images/gallery/2018/22.jpeg
+  - image: images/gallery/2018/23.jpeg
+  - image: images/gallery/2018/24.jpeg
+  - image: images/gallery/2018/25.jpeg
+  - image: images/gallery/2018/26.jpeg
+  - image: images/gallery/2018/27.jpeg
+  - image: images/gallery/2018/28.jpeg
+  - image: images/gallery/2018/29.jpeg
+  - image: images/gallery/2018/30.jpeg
+  - image: images/gallery/2018/31.jpeg
+  - image: images/gallery/2018/32.jpeg
+  - image: images/gallery/2018/33.jpeg
+  - image: images/gallery/2018/34.jpeg
+  - image: images/gallery/2018/35.jpeg
+  - image: images/gallery/2018/36.jpeg
+  - image: images/gallery/2018/37.jpeg
+  - image: images/gallery/2018/38.jpeg
+  - image: images/gallery/2018/39.jpeg
+  - image: images/gallery/2018/40.jpeg
+  - image: images/gallery/2018/41.jpeg
+  - image: images/gallery/2018/42.jpeg
+  - image: images/gallery/2018/43.jpeg
+  - image: images/gallery/2018/44.jpeg
+  - image: images/gallery/2018/45.jpeg
+  - image: images/gallery/2018/46.jpeg
+  - image: images/gallery/2018/47.jpeg
+  - image: images/gallery/2018/48.jpeg
+  - image: images/gallery/2018/49.jpeg
+  - image: images/gallery/2018/50.jpeg
+  - image: images/gallery/2018/51.jpeg
+  - image: images/gallery/2018/52.jpeg
+  - image: images/gallery/2018/53.jpeg
+  - image: images/gallery/2018/54.jpeg
+  - image: images/gallery/2018/55.jpeg
+  - image: images/gallery/2018/56.jpeg
+  - image: images/gallery/2018/57.jpeg
+  - image: images/gallery/2018/58.jpeg
+  - image: images/gallery/2018/59.jpeg
+  - image: images/gallery/2018/60.jpeg
+  - image: images/gallery/2018/61.jpeg
+  - image: images/gallery/2018/62.jpeg
+  - image: images/gallery/2018/63.jpeg
+  - image: images/gallery/2018/64.jpeg
+  - image: images/gallery/2018/65.jpeg
+  - image: images/gallery/2018/66.jpeg
+  - image: images/gallery/2018/67.jpeg
+  - image: images/gallery/2018/68.jpeg
+  - image: images/gallery/2018/69.jpeg
+  - image: images/gallery/2018/70.jpeg
+  - image: images/gallery/2018/71.jpeg
+  - image: images/gallery/2018/72.jpeg
+  - image: images/gallery/2018/73.jpeg
+  - image: images/gallery/2018/74.jpeg
+  - image: images/gallery/2018/75.jpeg
+  - image: images/gallery/2018/76.jpeg
+
+
+---
+
+
+<div class='full parallax' style='background-image: url(images/home/Publico.jpg); color: #fff;'>
+  <div class='row'>
+    <div class='large-12 columns'>
+      {% include section-header.html title="Galería 2018" tagline="Revisa en imágenes lo que fue el SMM 2018" color="#fff" class="big" %}
+    </div>
+  </div>
+  <div class='four spacing'></div>
+</div>
+
+<div class='full'>
+  <div class='row'>
+    <div class='mod modGallery'>
+
+      {% assign counter = 1 %}
+      <div class="row">
+        {% for work in page.works %}
+          {% assign cnt = counter|modulo:3 %}
+          {% if cnt == 1 %}
+            <div class="row centered-text">
+              <div class='small-6 medium-4 large-4 columns'>
+                <a href="{{work.image}}">
+                  <img class="gallery-img" src="{{ work.image }}" />
+                </a>
+              </div>
+          {% elsif cnt == 2 %}
+              <div class='small-6 medium-4 large-4 columns'>
+                <a href="{{work.image}}">
+                  <img class="gallery-img" src="{{ work.image }}" />
+                </a>
+              </div>
+          {% else %}
+            <div class='small-6 medium-4 large-4 columns'>
+              <a href="{{work.image}}">
+                <img class="gallery-img" src="{{ work.image }}" />
+              </a>
+            </div>
+            </div>
+          {% endif %}
+
+
+          {% assign counter = counter | plus:1 %}
+        {% endfor %}</div>
+      </div>
+
+      <div class"two spacing"> </div>
+
+      <h4 class="centered-text">¡Agradecemos a Rodrigo Yaitul por las fotografías!</h4>
+
+
+    </div>
+  </div>
+
+  <div class='four spacing'></div>
+</div>
