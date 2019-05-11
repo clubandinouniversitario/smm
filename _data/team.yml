@@ -4,19 +4,21 @@ managment:
   - name: Lorena Henriquez
     description: Coordinadora
 board:
-  - name: Daniela Quiroz
-    description: Presidenta
-  - name: Domingo Lama
-    description: Vicepresidente
-  - name: Natalia Bugedo
-    description: Directora técnica
-  - name: Francisco Vallés
+  - name: Damir Mandakovic
+    description: Presidente
+  - name: Romina Toro
+    description: Vicepresidenta
+  - name: Sergio Larrondo
+    description: Director Técnica
+  - name: Aldo Caneo
     description: Secretario
-  - name: Catalina Nuñez
+  - name: Sofía Mafucci
     description: Tesorera
-  - name: Ernesto Ortiz
+  - name: Cristián Vásquez
+    description: Director de Proyectos
+  - name: Abdo Fernández
     description: Directorio
-  - name: Nicolás Moreno
+  - name: Claudio Suau
     description: Directorio
   - name: Pablo Dawson
     description: Encargado convenios
