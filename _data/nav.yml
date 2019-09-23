@@ -4,6 +4,9 @@
 - name: Nosotros
   path: about.html
   section_id: about
+- name: Donaciones
+  path: donate.html
+  section_id: donate
 - name: Galería
   path: portfolio.html
   section_id: portfolio

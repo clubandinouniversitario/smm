@@ -3838,3 +3838,14 @@ body {
     display: none;
   }
 }
+
+
+p {
+  font-size: 1.2rem;
+  color: #000;
+}
+
+ul, ol, dl {
+  font-size: 1.2rem;
+  color: #000;
+}
