@@ -30,25 +30,23 @@ medical:
   - name: Sebastián Drago Pérez
     description: Médico Traumatólogo formado en la Pontificia Universidad Católica de Chile, trabaja en Hospital del Trabajador de Santiago. Instructor Advanced Wilderness Life Support. Miembro de la directiva de la Sociedad Chilena de Medicina de Montaña y áreas remotas.
 staff:
-  - name: Domingo Lama
+  - name: Laura Ramajo
+    description: Presentadora
+  - name: Emil Namur
     description: Presentador
-  - name: Daniel Bostón
+  - name: Francisca Bustos
     description: Community Manager
   - name: Daniela Quiroz
-    description: Web y estadísticas
-  - name: Rodrigo Yaitul
+    description: Web
+  - name: Fabián Fadic
     description: Fotográfo
-  - name: Damián Araos
+  - name: Loreto Henríquez
     description: Diseño afiche
-  - name: Valentina Jorquera
-    description: Encargado Audiovisial
   - name: Cristian Vasquez
     description: Encargado de audio
   - name: Oliver Bravo
     description: Encargado de salón
-  - name: Franco Delgado Patiño
-    description: Encargado de Seguridad Salón
-  - name: Gabriel López
+  - name: Julián Sanchez
     description: Encargado Coffee Break
   - name: Romina Toro
     description: Encargado Anfitriones
