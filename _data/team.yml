@@ -14,7 +14,7 @@ board:
     description: Secretario
   - name: Camila Loyola
     description: Tesorera
- - name: Federico Caballero
+  - name: Federico Caballero
     description: Directorio
 medical:
   - name: Sebastián Irarrazabal
