@@ -6,22 +6,16 @@ managment:
 board:
   - name: Damir Mandakovic
     description: Presidente
-  - name: Romina Toro
-    description: Vicepresidenta
-  - name: Sergio Larrondo
+  - name: Camila Oyarzún
+    description: Vicepresidente
+  - name: Agustín Ferrer
     description: Director Técnica
-  - name: Aldo Caneo
+  - name: Fabián Fadic
     description: Secretario
-  - name: Sofía Mafucci
+  - name: Camila Loyola
     description: Tesorera
-  - name: Cristián Vásquez
-    description: Director de Proyectos
-  - name: Abdo Fernández
+ - name: Federico Caballero
     description: Directorio
-  - name: Claudio Suau
-    description: Directorio
-  - name: Pablo Dawson
-    description: Encargado convenios
 medical:
   - name: Sebastián Irarrazabal
     description: Médico Cirujano, Traumatólogo, Pontificia Universidad Católica de Chile. Médico expediciones Lhotse 2006 y Everest 2012. Instructor Advanced Wilderness Life Support.
