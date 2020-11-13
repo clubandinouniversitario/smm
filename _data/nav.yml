@@ -16,7 +16,7 @@
     - name: Galería SMM
       path: portfolio.html
 - name: Biblioteca SMM
-  path: repository.html
+  path: https://www.youtube.com/channel/UCIilsenf6odf27TaaUVTaPg
   section_id: repository
 - name: Contáctanos
   path: contact.html
