@@ -4,18 +4,17 @@ managment:
   - name: Lorena Henriquez
     description: Coordinadora
 board:
-  - name: Damir Mandakovic
-    description: Presidente
-  - name: Camila Oyarzún
-    description: Vicepresidente
-  - name: Agustín Ferrer
-    description: Director Técnica
-  - name: Fabián Fadic
-    description: Secretario
   - name: Camila Loyola
+    description: Presidente
+  - name: Catalina Vattuone
+    description: Vicepresidente
+  - name: María de los Ángeles Tapia
+    description: Director Técnica
+  - name: Catalina Medina
+    description: Secretario
+  - name: Francisca Saavedra
     description: Tesorera
-  - name: Federico Caballero
-    description: Directorio
+
 medical:
   - name: Sebastián Irarrázaval
     description: Médico Cirujano, Traumatólogo, Pontificia Universidad Católica de Chile. Médico expediciones Lhotse 2006 y Everest 2012. Instructor Advanced Wilderness Life Support.
