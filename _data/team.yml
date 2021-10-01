@@ -4,13 +4,13 @@ managment:
 
 board:
   - name: Camila Loyola
-    description: Presidente
+    description: Presidenta
   - name: Catalina Vattuone
-    description: Vicepresidente
+    description: Vicepresidenta
   - name: María de los Ángeles Tapia
-    description: Director Técnica
+    description: Directora Técnica
   - name: Catalina Medina
-    description: Secretario
+    description: Secretaria
   - name: Francisca Saavedra
     description: Tesorera
 
