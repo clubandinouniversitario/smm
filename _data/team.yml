@@ -1,8 +1,7 @@
 managment:
   - name: José Miguel Jorquera
     description: Coordinador general
-  - name: 
-    description: 
+
 board:
   - name: Camila Loyola
     description: Presidente
@@ -16,6 +15,8 @@ board:
     description: Tesorera
 
 medical:
+  - name: Isidora Varas
+    description: Médico Traumatóloga. Pontificia Universidad Católica de Chile. Certificación Advanced Wilderness Life Support. Docente cursos de primeros auxilios. Club Andino Universitario.
   - name: Sebastián Irarrázaval
     description: Médico Cirujano, Traumatólogo, Pontificia Universidad Católica de Chile. Médico expediciones Lhotse 2006 y Everest 2012. Instructor Advanced Wilderness Life Support.
   - name: Nicolás Thumm Bock
@@ -23,23 +24,4 @@ medical:
   - name: Sebastián Drago Pérez
     description: Médico Traumatólogo formado en la Pontificia Universidad Católica de Chile, trabaja en Hospital del Trabajador de Santiago. Instructor Advanced Wilderness Life Support. Miembro de la directiva de la Sociedad Chilena de Medicina de Montaña y áreas remotas.
 staff:
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
-  - name: 
-    description: 
+
