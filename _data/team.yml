@@ -1,6 +1,9 @@
 managment:
   - name: José Miguel Jorquera
     description: Coordinador general
+  - name: Oliver 
+    description: Coordinador
+
 
 board:
   - name: Camila Loyola
