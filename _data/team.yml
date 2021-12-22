@@ -6,16 +6,16 @@ managment:
 
 
 board:
-  - name: Camila Loyola
-    description: Presidenta
-  - name: Catalina Vattuone
+  - name: Agustin Ferrer
+    description: Presidente
+  - name: Macarena Dominguez
     description: Vicepresidenta
-  - name: María de los Ángeles Tapia
-    description: Directora Técnica
-  - name: Catalina Medina
-    description: Secretaria
-  - name: Francisca Saavedra
-    description: Tesorera
+  - name: Claudio Suau
+    description: Director Técnico
+  - name: Isidora Mondaca
+    description: Secretario
+  - name: Roberto Manieu
+    description: Tesorero
 
 medical:
   - name: Isidora Varas
