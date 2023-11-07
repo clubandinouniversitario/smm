@@ -1,21 +1,23 @@
 managment:
-  - name: José Miguel Jorquera
+  - name: Raúl Cisternas
     description: Coordinador general
-  - name: Oliver Bravo
-    description: Coordinador
+  - name: Angelica Tambley
+    description: Coordinadora interna
+  - name: Jana Dmitrieva
+    description: Coordinadora externa
 
 
 board:
-  - name: Agustin Ferrer
-    description: Presidente
-  - name: Macarena Dominguez
-    description: Vicepresidenta
-  - name: Claudio Suau
-    description: Director Técnico
-  - name: Isidora Mondaca
+  - name: Jana Dmitrieva
+    description: Presidenta
+  - name: Sergio Gaete
+    description: Vicepresidente
+  - name: Isidora Varas
+    description: Directora Técnica
+  - name: Carlos Urzua
     description: Secretario
-  - name: Roberto Manieu
-    description: Tesorero
+  - name: Victoria Bizama
+    description: Tesorera
 
 medical:
   - name: Isidora Varas
