@@ -2,47 +2,19 @@
 layout: default
 section_id: home
 slides:
-  - bg: images/home/Publico2.png
+  - bg: images/home/bg.png
     klass: centered-text
     title:
       klass: bottom-to-top
-      text: 30 de Noviembre, 1 y 2 de Diciembre 2023
+      text: 9 y 10 de Octubre 2024
     small_title:
       klass: bottom-to-top
-      text: XXII Versión del Seminario de Medicina de Montaña -  Híbrido
+      text: XXIII Versión del Seminario de Medicina de Montaña -  Híbrido
     buttons:
       klass: bottom-to-top
       items:
         - text: Inscripciones
-          link_to: https://forms.gle/Lane7g9X86mgGsYN8
-  - bg: images/home/presentador.jpg
-    klass: centered-text
-    small_title:
-      klass: bottom-to-top
-      text:
-    title:
-      klass: bottom-to-top
-      text: Destacados expositores
-    buttons:
-      klass: bottom-to-top
-      items:
-        - klass: boxed
-          text: Revisa presentaciones anteriores
-          link_to: /repository.html
-  - bg: images/home/Equipo.jpg
-    small_title:
-      klass: bottom-to-top
-      text: El SMM es posible gracias al trabajo voluntario de miembros del CAU
-    title:
-      klass: bottom-to-top
-      text: Gran equipo
-    buttons:
-      klass: bottom-to-top
-      items:
-        - text: Conoce al equipo
-          link_to: /about.html
-
-
+          link_to: https://www.passline.com/view-event/seminario-de-medicina-de-montana-cau-2024
 
 works:
   - image: images/gallery/home-01.jpg
@@ -70,7 +42,6 @@ works:
     title: Ver galería
     link_to: portfolio.html
 
-
 milestones:
   - icon: list-ol
     from: 0
@@ -88,7 +59,6 @@ milestones:
     from: 0
     to: 160
     title: + Presentaciones
-
 ---
 
 
@@ -123,14 +93,14 @@ milestones:
           <div class='small-title {{ slide.small_title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2>{{ slide.small_title.text }}</h2>
+                <h2 class="color-blue">{{ slide.small_title.text }}</h2>
               </div>
             </div>
           </div>
           <div class='title {{ slide.title.klass }}'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2 class="slide-title">{{ slide.title.text }}</h2>
+                <h2 class="slide-title color-blue">{{ slide.title.text }}</h2>
               </div>
             </div>
           </div>
@@ -156,29 +126,21 @@ milestones:
     <div class='large-12 columns programe-section'>
       {% include section-header.html title="Programación" color="#000" %}
 
-      <div class='medium-4 columns'>
+      <div class='medium-6 columns'>
         <p>    </p>
-        <h3> Jueves 30 de Noviembre </h3>
-        <p> 19:00 Apertura - Gobernador Claudio Orrego </p>
-        <p> 19:15 ¿Como llevar niños a los niños a la montaña? - Natalia Seguel </p>
-        <p> Barefoot Running ¿Cual es la ciencia detrás? - Dr. Sebastián Drago </p>
+        <h3> Miércoles 9 de Noviembre </h3>
+
+        <p>19:30 Enfermedad aguda de montaña: Exámenes previos, botiquín de altura e identificación precoz. <br> Dr. Mario Sandoval (Médico deportivo, especialista en tareas desarrolladas en altura geográfica) </p>
+        <p>20:15 BREAK</p>
+        <p>20:30 Primeros auxilios en áreas remotas: La estrategia es capacitación y planificación. <br> Francisco Vio (Director de NOLS Patagonia)</p>
       </div>
 
-      <div class='medium-4 columns'>
-        <p>    </p>
-        <h3> Viernes 1 de Diciembre </h3>
-        <p> 19:00 Bienvenida </p>
-        <p> 19:15 ¿Como prevenir lesiones por sobrecarga en la montaña? - Alonso Niklitschek </p>
-        <p> 20:15 Práctica segura del montañismo - Rodrigo Fica </p>
-      </div>
-
-      <div class='medium-4 columns'>
+      <div class='medium-6 columns'>
         <p> </p>
-        <h3> Sábado 2 de Diciembre </h3>
-        <p> 09:00 Bienvenida</p>
-        <p> 09:30 Seguridad en Montaña - Ernesto Olivares</p>
-        <p> 10:30 Panel de Conversación con Ernesto Olivares, Janice Rot y Nicolás Horta </p>
-        <p> 11:30 Cierre Oficial</p>
+        <h3> Jueves 10 de Octubre </h3>
+        <p> 19:30 Psicología del miedo en escalada: Claves para desafiar los límites. <br> Camila Chia (Psicóloga Clínica, de la Actividad Física y el Deporte) </p>
+        <p>20:15 BREAK</p>
+        <p>20:30 Nutrición para deportes de resistencia: Estrategia para rendimiento óptimo en el sendero. <br> Natalie Cofré (Especialista en Nutrición Deportiva y Coaching Nutricional Consciente, Triatleta y Maratonista)</p>
       </div>
     </div>
 </div>
