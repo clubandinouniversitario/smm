@@ -785,7 +785,7 @@ ul.shortcode-list i {
 }
 
 .button:hover {
-  background-color: rgba(249, 206, 6, 0.8);
+  background-color: #7284a6;
 }
 
 .button.boxed {
@@ -3855,4 +3855,14 @@ ul, ol, dl {
 
 .color-blue {
   color: #354b74 !important;
+}
+
+.limit-width {
+  width: 90px !important; /* Valor por defecto para pantallas pequeñas */
+}
+
+@media (min-width: 768px) {
+  .limit-width {
+    width: 120px !important; /* Valor para pantallas más grandes (desktop) */
+  }
 }
