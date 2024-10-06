@@ -102,6 +102,25 @@ milestones:
             </div>
           </div>
 
+          <div class='logos-wrapper bottom-to-top hide-for-landscape'>
+            <div class="row">
+              <div class='small-3 columns'>
+                <br>
+              </div>
+              <div class='small-3 columns'>
+                <h5 class="small">Organiza</h5>
+                <img src="images/logos2024/cau.png" />
+              </div>
+              <div class='small-3 columns'>
+                <h5 class="small">Invita</h5>
+                <img src="images/logos2024/diseno_uc.png" />
+              </div>
+              <div class='small-3 columns'>
+                <br>
+              </div>
+            </div>
+          </div>
+
           <div class='logos-wrapper bottom-to-top hide-for-small-only'>
             <div class="row">
               <div class='medium-1 small-3 columns'>
@@ -119,43 +138,18 @@ milestones:
 
             <div class="row">
               <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/logocau.png" />
+                <img src="images/logos2024/cau.png" />
               </div>
 
               <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/diseno_uc.jpeg" />
+                <img src="images/logos2024/diseno_uc.png" />
               </div>
 
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/logofulloutdoor.png" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/the_north_face.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/editorial_montana.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/my_line.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/ahb.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/nols.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/rental_high_mountain.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/ecotubo.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/you_just_better.jpeg" />
-              </div>
-              <div class='medium-1 small-3 columns'>
-                <img src="images/logos2024/mshop.jpeg" />
-              </div>
+              {% for client in site.data.clients %}
+                <div class='medium-1 small-3 columns'>
+                  <img alt="" src="{{client.image}}"/>
+                </div>
+              {% endfor %}
             </div>
           </div>
         </li>
