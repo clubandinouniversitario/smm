@@ -64,47 +64,97 @@ milestones:
 
 <div class='mod modDefaultSlider'>
   <div class='sequence' data-autostop='on' data-timeout='0'>
-    <ul class='sequence-pagination'>
-      {% for slide in page.slides %}
-        {% if forloop.first %}
-          {% assign class = 'current' %}
-        {% else %}
-          {% assign class = '' %}
-        {% endif %}
-        <li class="{{class}}"></li>
-      {% endfor %}
-    </ul>
     <ul class='sequence-canvas'>
       {% for slide in page.slides %}
         {% if forloop.first %}
-          {% assign style = 'static' %}
+          {% assign style = '' %}
         {% else %}
           {% assign style = '' %}
         {% endif %}
+              
+        <li class='frame static centered-text'>
+          <div class='bg' style='background-image: url(images/home/bg.png);'></div>
 
-        <li class='frame {{style}} {{ slide.klass }}'>
-          <div class='bg' style='background-image: url({{ slide.bg}});'></div>
-          <div class='small-title {{ slide.small_title.klass }}'>
+          <div class='small-title bottom-to-top'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2 class="color-blue">{{ slide.small_title.text }}</h2>
+                <h2 class="color-blue">XXIII Versión del Seminario de Medicina de Montaña -  Híbrido</h2>
               </div>
             </div>
           </div>
-          <div class='title {{ slide.title.klass }}'>
+
+          <div class='title bottom-to-top'>
             <div class='row'>
               <div class='large-12 columns'>
-                <h2 class="slide-title color-blue">{{ slide.title.text }}</h2>
+                <h2 class="slide-title color-blue">9 y 10 de Octubre 2024</h2>
               </div>
             </div>
           </div>
-          <div class='buttons-wrapper {{ slide.buttons.klass }}'>
+
+          <div class='buttons-wrapper bottom-to-top'>
             <div class='row'>
               <div class='large-12 columns'>
                 <div class='two spacing'></div>
                 {% for button in slide.buttons.items %}
-                  <a class='button {{ button.klass }}' href='{{ button.link_to }}'>{{ button.text }}</a>
+                  <a class='button bottom-to-top' href='https://www.passline.com/view-event/seminario-de-medicina-de-montana-cau-2024'>Inscripciones</a>
                 {% endfor %}
+              </div>
+            </div>
+          </div>
+
+          <div class='logos-wrapper bottom-to-top hide-for-small-only'>
+            <div class="row">
+              <div class='medium-1 small-3 columns'>
+                <h5 class="small">Organiza</h5>
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <h5 class="small">Invita</h5>
+              </div>
+              <div class='hide-for-small-only medium-1 small-3 columns'>
+                <h5 class="small">Auspician</h5>
+              </div>
+              <div class='medium-1 small-3 columns'>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/logocau.png" />
+              </div>
+
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/diseno_uc.jpeg" />
+              </div>
+
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/logofulloutdoor.png" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/the_north_face.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/editorial_montana.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/my_line.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/ahb.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/nols.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/rental_high_mountain.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/ecotubo.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/you_just_better.jpeg" />
+              </div>
+              <div class='medium-1 small-3 columns'>
+                <img src="images/logos2024/mshop.jpeg" />
               </div>
             </div>
           </div>
@@ -179,12 +229,7 @@ milestones:
   </div>
 
 
-
-
-
-
 {% include our-customers.html %}
-
 
 <div class='full no-padding' style='background: #f5f5f5'>
   <div class='mod modCallToAction'>

@@ -1,7 +1,7 @@
 <div class="full" style="background: #f5f5f5;">
   <div class='row'>
     <div class='large-12 columns'>
-      {% include section-header.html title="Colaboradores" color="#000" %}
+      {% include section-header.html title="Colaboradores 2024" color="#000" %}
       <div class='spacing'></div>
       <p class="centered-text">
         ¡Agradecemos a las empresas que cada año creen en el Seminario de Medicina de Montaña, y hacen posible que sea realidad!
@@ -11,10 +11,12 @@
   </div>
   <div class='row'>
     <div class='large-12 columns'>
-      <div class='mod modClients' data-slides_to_show='4'>
+      <div class='mod modClients' data-slides_to_show='5'>
         <div class='clients'>
           {% for client in site.data.clients %}
-            <div><a href="{{client.link}}" target="_blank"><img alt="" src="{{client.image}}" /></a></div>
+            <div>
+              <img alt="" src="{{client.image}}"/>
+            </div>
           {% endfor %}
         </div>
       </div>
